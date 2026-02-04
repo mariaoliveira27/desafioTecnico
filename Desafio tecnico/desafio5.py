@@ -1,12 +1,12 @@
 
 # Lista de dicionários representando despesas, cada um com uma categoria e valor
 bancoDeDados = [
-    {"Categoria": "Alimentação", "Valor": 150.0},
-    {"Categoria": "Transporte", "Valor": 100.0},
-    {"Categoria": "Lazer", "Valor": 200.0},
-    {"Categoria": "Hospedagem", "Valor": 300.0},
-    {"Categoria": "Hospedagem", "Valor": 150.0},
-    {"Categoria": "Transporte", "Valor": 75.5}
+    {"Categoria": "Alimentação", "valor": 150.0},
+    {"Categoria": "Transporte", "valor": 100.0},
+    {"Categoria": "Lazer", "valor": 200.0},
+    {"Categoria": "Hospedagem", "valor": 300.0},
+    {"Categoria": "Hospedagem", "valor": 150.0},
+    {"Categoria": "Transporte", "valor": 75.5}
 ]
 
     
@@ -16,7 +16,7 @@ def calcular_Por_Categoria(despesas):
     total = {}  # Dicionário para armazenar o total por categoria
     for item in despesas:
         categoria = item["Categoria"]  # Extrai a categoria da despesa
-        valor = item["Valor"]          # Extrai o valor da despesa
+        valor = item["valor"]          # Extrai o valor da despesa
         if categoria in total:
             total[categoria] += valor  # Soma ao total existente
         else:
