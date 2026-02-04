@@ -36,10 +36,10 @@ Certifique-se de ter o [Python/Node.js] instalado em sua máquina.
 
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/](https://github.com/)[SEU-USUARIO]/desafio-dataviva-[SEU-NOME].git
+   git clone [https://github.com/mariaoliveira27/desafioTecnico.git](https://github.com/mariaoliveira27/desafioTecnico.git)
 2. Entre na pasta do projeto:
    ```bash
-   git clone [https://github.com/](https://github.com/)[SEU-USUARIO]/desafio-dataviva-[SEU-NOME].git
+   cd desafioTecnico
 3. Execute os arquivos individualmente. Exemplo:
    ```bash
    python desafio1.py
